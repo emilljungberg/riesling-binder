@@ -1,0 +1,10 @@
+#!/bin/bash
+
+wget https://github.com/spinicist/riesling/releases/download/untagged-cad11205f91f260c688b/riesling-linux.tar.gz
+tar -xzvf riesling-linux.tar.gz
+pwd
+ls -al
+mkdir -p .local/bin
+mv riesling .local/bin
+ls -al .local/bin
+echo $PATH
